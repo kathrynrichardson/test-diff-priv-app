@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	height: fit-content;
+	margin: 20px auto;
+	padding: 20px 40px;
+	border: 2px solid black;
+}
+
+.label {
+	font-size: 16px;
+}
+
+.app-container {
+	width: 600px;
+}
+
+.test-container {
+	width: 100%;
+}
+
+.controls-container {
+	width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.histogram-container {
+	width: 100%;
+}
+
+.axis.axis--x text {
+	text-anchor: end;
+	transform: rotate(-45deg);
+}
+
+.element-count-container {
+  width: 100%;
+	min-height: 100px;
+}
+
+.table-container {
+	width: 100%;
+	max-height: 300px;
+  overflow-y: auto;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.highlighted-row {
+  background-color: #ffff99;
+}
