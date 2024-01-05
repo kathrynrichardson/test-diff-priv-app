@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		participantDropdown.id = 'participantDropdown';
 		participantDropdown.addEventListener('change', generateRandomTable);
 	
-		const participantOptions = [100, 1000, 10000, 100000];
+		const participantOptions = [100, 1000, 10000];
 		participantOptions.forEach(optionValue => {
 			const option = document.createElement('option');
 			option.value = optionValue;
